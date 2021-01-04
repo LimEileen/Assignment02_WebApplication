@@ -8,3 +8,17 @@ body {
   td,th{
       border:1px solid #333;font-size:0.8em;
   }
+  
+  .navbar{
+    background-color: #ffc284;
+    margin-bottom: 20px;
+  }
+  
+  #grpSearch, .btn{
+    margin-bottom: 20px;
+  }
+  
+  .btn{
+    background-color: 	#fff7a7;
+  }
+  
