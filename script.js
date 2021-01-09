@@ -1,63 +1,113 @@
-$(document).ready(function () {
-    $("#btnSearch").on("click",function (e) {
-      e.preventDefault();
-     // console.log($("#grpSearch").val());
+//[STEP 0]: Fill in your own clientID and secret
+const clientId = '4500f049073c43faa80cdfbb2ac0d1ef';
+const clientSecret = 'f48e49c3cdb04cd3b2d2548e7c6962a6';
+
+//[STEP 1]: Let's get out token first
+let settings = {
+  url: "https://accounts.spotify.com/api/token",
+  method: "POST",
+  timeout: 0,
+  headers: {
+    "Content-Type": "application/x-www-form-urlencoded",
+    Authorization: "Basic " + btoa(clientId + ":" + clientSecret),
+  },
+  data: { grant_type: "client_credentials" },
+};
+
+//get access token
+$.ajax(settings).done(function (response) {
+  console.log(response);
+  const data = response;
+  let token = data.access_token;
+
+  console.log(token);
   
-      getAPI($("#grpSearch").val());
-  
-    });
-  
-  
-    function getAPI(grpname="") {
-     // console.log("sending psi data request");
-      var params= {
-        url: `https://raw.githubusercontent.com/yoonpatrick3/kpop-api-web/master/kpop_data.json?grp_name=${grpname}`,
-        method: "GET",
-        timeout: 0,
-      };
-  
-      $.ajax(params).done (function (data) {
-        var content = "";
-        //convert to proper object
-        let response = JSON.parse(data);
-  
-        //using jquery $.each
-        $.each(response, function (key, obj) {
-          $.each(obj, function(k,value){
-            //append content at the same time 
-            //template literal does not allow += 
-            content = `${content} ${k}: ${value}`;
-          })
-        });
-        //dump to html
-        $("#name").html(content);
-  
-        let tableContent = "";
-        //using normal loop 
-       
-        for(var i = 0; i< response.length;i++){
-           tableContent = `${tableContent}
-           Stage Name: ${response[i]["Stage Name"]}
-           Full Name: ${response[i]["Full Name"]}
-           Korean Name: ${response[i]["Korean Name"]}
-           Korean Stage Name: ${response[i]["KoreanStage Name"]}
-           DOB: ${response[i]["DOB"]}
-           Group: ${response[i]["Group"]}
-           Country: ${response[i]["Country"]}
-           Second Country: ${response[i]["Second Country"]}
-           Height: ${response[i]["Height"]}
-           Weight: ${response[i]["Weight"]}
-           Birthplace: ${response[i]["Birthplace"]}
-           Other Group: ${response[i]["Other Group"]}
-           Former Group: ${response[i]["Former Group"]}
-           Gender: ${response[i]["Gender"]}
-           Position: ${response[i]["Position"]}
-           Instagram: ${response[i]["Instagram"]}
-           Twitter: ${response[i]["Twitter"]}
-           `
-        }//end loop 
-        //dump to console
-      console.log(tableContent);
-      });
-    }
+  //[STEP 2]: With our token, we can access our API 
+  getGroupImg(token);
+  getGroup02Img(token);
+  getGroup03Img(token);
+  getTopPlaylists(token);
+  //test calls
+});
+
+
+function getGroupImg(token) {
+  var settings = {
+    url: "https://api.spotify.com/v1/artists/3Nrfpe0tUJi4K4DXYWgMUX",
+    method: "GET",
+    timeout: 0,
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  };
+
+  $.ajax(settings).done(function (response) {
+
+
+    //console.log(images);
+    console.log(response.images[2].url);
+    $("#btsbtn").html(`<img src="${response.images[2].url}">`);
+    $("#grpimg").html(`<img src="${response.images[1].url}">`);
   });
+}
+
+function getGroup02Img(token) {
+  var settings = {
+    url: "https://api.spotify.com/v1/artists/0ghlgldX5Dd6720Q3qFyQB",
+    method: "GET",
+    timeout: 0,
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  };
+
+  $.ajax(settings).done(function (response) {
+
+
+    //console.log(images);
+    console.log(response.images[2].url);
+    $("#txtbtn").html(`<img src="${response.images[2].url}">`);
+  });
+}
+
+function getGroup03Img(token) {
+  var settings = {
+    url: "https://api.spotify.com/v1/artists/5t5FqBwTcgKTaWmfEbwQY9",
+    method: "GET",
+    timeout: 0,
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  };
+
+  $.ajax(settings).done(function (response) {
+
+
+    //console.log(images);
+    console.log(response.images[2].url);
+    $("#enhypenbtn").html(`<img src="${response.images[2].url}">`);
+  });
+}
+
+
+
+function getTopPlaylists(token) {
+  var settings = {
+    url: "https://api.spotify.com/v1/artists/43ZHCT0cAZBISjO8DG9PnE/top-tracks?country=SE",
+    method: "GET",
+    timeout: 0,
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  };
+
+  $.ajax(settings).done(function (response) {
+
+
+    //console.log(images);
+    console.log(response.tracks.album);
+    $("#songsname").html(`<="${response.name}">`);
+  });
+}
+
+

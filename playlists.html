@@ -13,7 +13,6 @@
 
   <body>
 
-
     <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
         <h2>K-POP</h2>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,28 +30,62 @@
               <a class="nav-link" href="songs.html">Song Lists</a>
             </li>
           </ul>
-         </div>
-      </nav>
-  
-      <div class="container-fluid">
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id='grpSearch'>
-          <button class="btn btn-outline-success" type="submit" id="btnSearch">Search</button>
-        </form>
-      </div>
+        </div>
+    </nav>
 
-      <div class="card rounded" style="width: 10rem;">
-      <div class="card-body">
-        <h5 class="card-title"></h5>
-        <p class="card-text" id="name"></p>
-        <a href="#" class="btn btn-primary" id="viewbtn">View</a>
-      </div>
+
+  <div class="media">
+    <div class="mr-1" alt="Group's image" id="grpimg"></div>
+      <div class="media-body">
+      <h5 class="mt-0">BTS</h5>
+      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
     </div>
+  </div>
+
+
+
+  <table class="table">
+  <thead>
+    <h4>Popular Songs</h4>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td id="songsname">Mark</td>
+      <td id="popularity">Otto</td>
+      <td id="duration">@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+  </table>
+
+
+  <div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action active" id="songsname">
+  </a>
+  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+  <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+</div>
+
+    
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>
