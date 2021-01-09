@@ -15,11 +15,32 @@ td,th{
 }
 
 
-#grpimg{
+#btsimg, #txtimg, #enhypenimg{
   margin-left: 30px;
 }
 
-#btsbtn, #txtbtn{
+#btsbtn, #txtbtn, #enhypenbtn, #svtbtn{
   margin-right: 30px;
+}
+
+
+.btn{
+  background-color: pink;
   margin-bottom: 30px;
 }
+
+.btn:hover{
+  background-color: rgb(255, 167, 182);
+}
+
+
+.table{
+  background-color: pink;
+  margin-left: 30px;
+}
+
+
+.table, tr, th, td{
+  border:2px pink;
+}
+
