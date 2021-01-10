@@ -72,9 +72,12 @@ If this section grows too long, you may want to split it off into a separate fil
 - The spotify followers for all the K-POP groups was taken from the Spotify API in [Spotify Web Developer](https://developer.spotify.com/)
 - All the information in the playlists table was taken from the Spotify API in [Spotify Web Developer](https://developer.spotify.com/)
 
+### Fonts
+-The typography in this site were obtained from the [Google Fonts](https://fonts.google.com/)
+
 ### Media
 - The photos used in this site were obtained from the Spotify API in (https://developer.spotify.com/)
+- The songs in the table were obtained from [Spotify](https://open.spotify.com/).
 
 ### Acknowledgements[Spotify Web Developer]
-
 - I received inspiration for this project from [Spotify](https://open.spotify.com/) and [official website for Big Hit Entertainment](https://ibighit.com/).
