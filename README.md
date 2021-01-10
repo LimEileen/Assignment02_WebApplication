@@ -3,15 +3,10 @@
 In this website, it is all about K-POP idol groups which are under the Big Hit Entertainment. This website allow users to know the total followers of each group in Spotify and also they are able to know the top five songs from each idol groups.
  
 ## Design Process
+
+I decided to create this website because I am a K-POP fan and always get curious about what are the popular songs of the idol groups. The target users of this website is for the K-POP fans and also encourage more people to recognize their songs. In this website, the users are able to know the total followers of the idol group in Spotify. Beside that, there is also a table which list down the top 5 popular songs from each idol group. The users can also play the songs by clicking the songs name which will link to the Spotify website. The background colour of each idol group's page is different, which is depending on their official colour.
  
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+Before I start to code the website, I have done a preview wireframe in [Adobe XD](https://xd.adobe.com/view/b28021c6-6535-455a-8912-8654bed77c7d-e7d3/).
 
 ## Features
  
