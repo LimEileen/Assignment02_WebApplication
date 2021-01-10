@@ -1,8 +1,6 @@
 # Assignment02_WebApplication
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
+In this website, it is all about K-POP idol groups which are under the Big Hit Entertainment. This website allow users to know the total followers of each group in Spotify and also they are able to know the top five songs from each idol groups.
  
 ## Design Process
  
@@ -22,6 +20,7 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 - Collapsible Hamburger Mobile Menu - allow the navigation bar transform into a dropdown bar when the screen size is small.
 - Group Image Button - allows users to click and direct to the specific group's pages.
 - Songs (Songs name button in the table) -allow users to click on the songs name and it will link to the spotify website and open the songs.
+- Website Responsieness - allow the website to display in different screen sizes.
 
 
 ### Features Left to Implement
@@ -51,6 +50,12 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 ## Testing
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 1. Contact form:
     1. Go to the "Contact Us" page
