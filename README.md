@@ -49,7 +49,7 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 ## Testing
 Test | Expected Results | Actual Results | Pass/Fail
------------- | -------------
+------------ | ------------- | ------------- | -------------
 Navigation Bar | Able to direct the users to the relevant pages | Yes | Pass
 Group Image Button | Able to display the specific idol group's page | Yes | Pass
 Songs name Button | Able to link to the Spotify website and open the songs | Yes | Pass
