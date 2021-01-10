@@ -48,26 +48,13 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 
 ## Testing
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-
-First Header | Second Header
+Test | Expected Results | Actual Results | Pass/Fail
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Navigation Bar | Able to direct the users to the relevant pages | Yes | Pass
+Group Image Button | Able to display the specific idol group's page | Yes | Pass
+Songs name Button | Able to link to the Spotify website and open the songs | Yes | Pass
+Website Responsiveness | Allow the website to display in different screen sizes | The group name and total followers didn't change to the next line if the screen size become small | Fail
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Credits
 
