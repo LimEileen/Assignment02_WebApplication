@@ -69,11 +69,12 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The spotify followers for all the K-POP groups was taken from the Spotify API in [Spotify Web Developer](https://developer.spotify.com/)
+- All the information in the playlists table was taken from the Spotify API in [Spotify Web Developer](https://developer.spotify.com/)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from the Spotify API in (https://developer.spotify.com/)
 
-### Acknowledgements
+### Acknowledgements[Spotify Web Developer]
 
-- I received inspiration for this project from X
+- I received inspiration for this project from [Spotify](https://open.spotify.com/) and [official website for Big Hit Entertainment](https://ibighit.com/).
