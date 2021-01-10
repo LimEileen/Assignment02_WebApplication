@@ -16,22 +16,20 @@ These files should themselves either be included as a pdf file in the project it
 Include the Adobe XD wireframe as a folder. You can include the XD share url. 
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Navigation bar - allows users to click and direct to the relevant pages.
+- Collapsible Hamburger Mobile Menu - allow the navigation bar transform into a dropdown bar when the screen size is small.
+- Group Image Button - allows users to click and direct to the specific group's pages.
+- Songs (Songs name button in the table) -allow users to click on the songs name and it will link to the spotify website and open the songs.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Add on album tracks - allow users to know the K-POP groups' album lists and also all the songs in the albums.
+- Add on members page - allow users to recognize all the members in the idol groups.
+- Add on calendar and birthday reminder - allow users to know the idol groups's schedule and also get a reminder for each members' birthday.
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 - HTML
     - The project uses **HTML** to format content and website structure.
 - CSS
@@ -81,3 +79,4 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Acknowledgements[Spotify Web Developer]
 - I received inspiration for this project from [Spotify](https://open.spotify.com/) and [official website for Big Hit Entertainment](https://ibighit.com/).
+- I received inspiration from my mentors and also getting the help my mentors.
