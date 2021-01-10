@@ -1,54 +1,114 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #84c4ff;
+  background-image: linear-gradient(to bottom right, #124CA2, 	#3DBDFF);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
 }
-
 
 .navbar{
-  background-color: rgb(143, 168, 236);
+  background-color:  #124CA2;
   margin-bottom: 20px;
   font-family: 'Bigshot One', cursive;
-}
-
-
-#homenavbar,h2{
-  font-size: 50px;
 }
 
 #title{
   font-family: 'Bigshot One', cursive;
   font-size: 50px;
+  color: white;
 }
-
-#navbar{
-  font-size: 20px;
-}
-
 
 #imgbtn{
   text-align: center;
 }
 
-
 #btsbtn, #txtbtn, #enhypenbtn, #svtbtn{
   margin-right: 30px;
 }
 
-
 .btn{
-  background-color: pink;
+  background-color: rgb(61, 146, 226);
   margin-bottom: 30px;
 }
 
 .btn:hover{
-  background-color: rgb(255, 167, 182);
+  background-color: #124CA2;
 }
+
+
+#btsbody{
+  background-image: linear-gradient(to bottom right, #A88BEB,	#F8CEEC
+);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#btsnavbar{
+  background-color: #7F53AC;
+  font-size: 30px;
+}
+
+
+
+#txtbody{
+  background-image: linear-gradient(to bottom right, #7EE8FA
+, 	#80FF72);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#txtnavbar{
+  background-color: #01BAEF;
+  font-size: 30px;
+}
+
+
+#enhypenbody{
+  background-image: linear-gradient(to bottom right, #F9484A
+, 	#FBD72B);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#enhypennavbar{
+  background-color: rgb(252, 46, 49);
+  font-size: 30px;
+}
+
+
+#svtbody{
+  background-image: linear-gradient(to bottom right, 	#b4c8ea
+, 	#f7cac9);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#svtnavbar{
+  background-color: 	#91a8d0;
+  font-size: 30px;
+}
+
+
+#gfbody{
+  background-image: linear-gradient(to bottom right, #5f4a8b
+, 	#00b3ca);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#gfnavbar{
+  background-color: #6446a5c9;
+  font-size: 30px;
+}
+
+
+#navbar{
+  font-size: 30px;
+  color: white;
+}
+
+
+
 
 .media{
   margin-left: 30px;
   margin-bottom: 30px;
-  width: 100%;
 }
 
 #btsimg{
@@ -66,10 +126,45 @@ h2{
 
 .table{
   background-color: pink;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-family: 'Bigshot One', cursive;
+  font-size: 20px;
 }
 
 
 .table, tr, th, td{
-  border:2px pink;
+  color:white;
 }
+
+#btssongs, #btssongs2, #btssongs3, #btssongs4, #btssongs5,
+#txtsongs, #txtsongs2, #txtsongs3, #txtsongs4, #txtsongs5,#enhypensongs, #enhypensongs2, #enhypensongs3, #enhypensongs4, #enhypensongs5,
+#svtsongs, #svtsongs2, #svtsongs3, #svtsongs4, #svtsongs5,
+#gfsongs, #gfsongs2, #gfsongs3, #gfsongs4, #gfsongs5
+{
+  color: white;
+}
+
+
+#btstable{
+  background-color: rgba(195, 115, 242, 0.705);
+}
+
+#txttable{
+  background-color: rgba(61, 198, 236, 0.815);
+}
+
+#enhypentable{
+  background-color: rgb(228, 99, 101);
+}
+
+#svttable{
+  background-color: rgb(253, 152, 169);
+}
+
+#gftable{
+  background-color: #78d9e662;
+}
+
+
 
