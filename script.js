@@ -353,5 +353,3 @@ function getTopPlaylists05(token) {
     $("#gfpopularity5").html(`${response.tracks[4].popularity}`);
   });
 }
-
-
