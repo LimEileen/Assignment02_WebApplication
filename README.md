@@ -1,7 +1,5 @@
 # Assignment02_WebApplication
 
-# Your Project's Name
-
 One or two paragraphs providing an overview of your project. Tell us about your project.
 
 Essentially, this part is your sales pitch.
@@ -34,8 +32,22 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
+- [HTML]
+    - The project uses **HTML** to format content and website structure.
+- [CSS]
+    - The project uses **CSS** to style the HTML.
+- [JavaScript]
+    - The project uses **JavaScript** to make the website interactive.
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+- [Boostrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+    - The project uses **Boostrap** to design content layout for responsive pages.
+- [Google Fonts](https://fonts.google.com/)
+    - The project uses **Google Fonts** to have great typography.
+- [Adobe XD](https://www.adobe.com/sea/products/xd.html)
+    - The project uses **Adobe XD** to have a draft wireframe of our own website.
+- [Spotify Web Developer](https://developer.spotify.com/)
+    - The project uses **Spotify Web Developer** to get the endpoints of Spotify API.
 
 
 ## Testing
