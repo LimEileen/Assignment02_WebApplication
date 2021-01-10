@@ -50,9 +50,9 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 ## Testing
 Test | Expected Results | Actual Results | Pass/Fail
 ------------ | ------------- | ------------- | -------------
-Navigation Bar | Able to direct the users to the relevant pages | Yes | Pass
-Group Image Button | Able to display the specific idol group's page | Yes | Pass
-Songs name Button | Able to link to the Spotify website and open the songs | Yes | Pass
+Navigation Bar | Able to direct the users to the relevant pages | Able to direct the users to the relevant pages | Pass
+Group Image Button | Able to display the specific idol group's page | Able to display the specific idol group's page | Pass
+Songs name Button | Able to link to the Spotify website and open the songs | Able to link to the Spotify website and open the songs | Pass
 Website Responsiveness | Allow the website to display in different screen sizes | The group name and total followers didn't change to the next line if the screen size become small | Fail
 
 
