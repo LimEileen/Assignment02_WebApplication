@@ -8,7 +8,7 @@ body {
 }
 
 .navbar{
-  background-color:  black;
+  background-color:  rgba(27, 22, 22, 0.637);
   margin-bottom: 20px;
   font-family: 'Bigshot One', cursive;
 }
@@ -98,28 +98,17 @@ body {
 }
 
 
-#navbar{
-  font-size: 30px;
-  color: white;
-}
-
-
-
-
 .media{
   margin-left: 30px;
   margin-bottom: 30px;
 }
 
-#btsimg{
-  margin-right: 30px;
-}
 
 h1, h2, h3{
   font-family: 'Lalezar', cursive;
 }
 
-h2{
+.table, h2{
   margin-left: 30px;
 }
 
@@ -165,7 +154,5 @@ h2{
 #gftable{
   background-color: #78d9e662;
 }
-
-
 
 
