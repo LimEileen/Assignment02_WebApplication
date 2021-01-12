@@ -1,4 +1,5 @@
 # Assignment02_WebApplication
+Assignment 02 GitHub Link: (https://limeileen.github.io/Assignment02_WebApplication/)
 
 In this website, it is all about K-POP idol groups which are under the Big Hit Entertainment. This website allow users to know the total followers of each group in Spotify and also they are able to know the top five songs from each idol groups.
  
